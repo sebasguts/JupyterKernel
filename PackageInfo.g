@@ -32,7 +32,7 @@ PackageWWWHome := "http://gap-packages.github.io/JupyterKernel/",
 ArchiveURL     := Concatenation("https://github.com/gap-packages/JupyterKernel/",
                                 "releases/download/v", ~.Version,
                                 "/JupyterKernel-", ~.Version),
-README_URL     := Concatenation( ~.PackageWWWHome, "README" ),
+README_URL     := Concatenation( ~.PackageWWWHome, "README.md" ),
 PackageInfoURL := Concatenation( ~.PackageWWWHome, "PackageInfo.g" ),
 
 ArchiveFormats := ".tar.gz",

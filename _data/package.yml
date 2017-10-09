@@ -35,7 +35,7 @@ needed-pkgs:
       url: "https://gap-packages.github.io/crypting/"
 
 www: http://gap-packages.github.io/JupyterKernel/
-readme: README
+readme: README.md
 packageinfo: http://gap-packages.github.io/JupyterKernel/PackageInfo.g
 
 downloads:
