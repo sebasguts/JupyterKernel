@@ -1,0 +1,38 @@
+  
+  [1X2 [33X[0;0YJupyter Utility Functions[133X[101X
+  
+  [33X[0;0YThis  chapter  gives  reference  to  the  functions  that are invoked by the
+  Jupyter kernel to handle requests from the jupyter frontend.[133X
+  
+  
+  [1X2.1 [33X[0;0YHandlers for Jupyter requests[133X[101X
+  
+  [1X2.1-1 JUPYTER_ViewString[101X
+  
+  [29X[2XJUPYTER_ViewString[102X( [3Xarg[103X ) [32X operation
+  
+  [33X[0;0YMethod that provides rich viewing experience if code used inside Jupyter[133X
+  
+  [1X2.1-2 JUPYTER_print[101X
+  
+  [29X[2XJUPYTER_print[102X( [3Xarg[103X ) [32X function
+  
+  [33X[0;0YJupyter printing[133X
+  
+  [1X2.1-3 JUPYTER_Complete[101X
+  
+  [29X[2XJUPYTER_Complete[102X( [3Xarg[103X ) [32X function
+  
+  [33X[0;0YThis  function  is  called  when  the  user  presses  Tab in a code cell and
+  produces  a  list  of possible completions. It is passed the current code in
+  the cell, and the curser position inside the code.[133X
+  
+  
+  [1X2.2 [33X[0;0YAdditional Utility Functions[133X[101X
+  
+  [1X2.2-1 ISO8601Stamp[101X
+  
+  [29X[2XISO8601Stamp[102X( [3Xarg[103X ) [32X function
+  
+  [33X[0;0YCurrent date and time as ISO8601 timestamp. Don't trust this function.[133X
+  
