@@ -1,6 +1,6 @@
 name: JupyterKernel
-version: 0.9.2
-date: 17/10/2017
+version: 0.10
+date: 18/10/2017
 description: |
     Jupyter kernel written in GAP
 
@@ -28,7 +28,7 @@ needed-pkgs:
       version: ">= 0.4"
       url: "https://gap-packages.github.io/uuid/"
     - name: "ZeroMQInterface"
-      version: ">= 0.7"
+      version: ">= 0.8"
       url: "https://gap-packages.github.io/ZeroMQInterface/"
     - name: "crypting"
       version: ">= 0.7"
@@ -40,7 +40,7 @@ packageinfo: http://gap-packages.github.io/JupyterKernel/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/gap-packages/JupyterKernel/releases/download/v0.9.2/JupyterKernel-0.9.2.tar.gz
+      url: https://github.com/gap-packages/JupyterKernel/releases/download/v0.10/JupyterKernel-0.10.tar.gz
 
 abstract: |
     
